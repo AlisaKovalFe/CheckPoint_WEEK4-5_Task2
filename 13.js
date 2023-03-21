@@ -4,6 +4,16 @@
 
 const pow = (x, n) => {
     return Math.pow(x, n)
+
+    //решение через цикл (странное)
+    // let pow = 1
+    // for (let i = 1; i <= n; i++) {
+    //     pow *= x
+    // }
+    // return pow
 }
 
 console.log(pow(3, 3));
+
+
+
